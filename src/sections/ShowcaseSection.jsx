@@ -49,7 +49,9 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <a href="https://messenger-jet-six.vercel.app/">
+              <img src="/images/project1.png" alt="Messenger app" />
+              </a>
             </div>
             <div className="text-content">
               <h2>
@@ -65,17 +67,21 @@ const AppShowcase = () => {
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
+                <a href="https://chromewebstore.google.com/detail/tab-manager-pro/fbhfepfmpanemfbinlndjbiggidfkgdf?utm_source=ext_app_menu">
                 <img
                   src="/images/project2.png"
                   alt="Tab Manager"
-                />
+                  />
+                  </a>
               </div>
               <h2>Tab Manager Pro - Google chrome Extension</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
+                <a href="https://hotel-booking-delta-seven.vercel.app/">
                 <img src="/images/project3.png" alt="Hotel Booking App" />
+                </a>
               </div>
               <h2>VJ booking - A hotel booking platform</h2>
             </div>
