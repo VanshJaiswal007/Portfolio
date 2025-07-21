@@ -27,8 +27,8 @@ const words = [
 const counterItems = [
   { value: 2, suffix: "+", label: "Years of Experience" },
   { value: 10, suffix: "+", label: "Completed Projects" },
-  { value: 1526, suffix:"",  label: "Specialist Codeforces" },
-  { value: 3, suffix: "✵", label: "CodeChef" },
+  { value: 1748, suffix:"",  label: "Expert Codeforces" },
+  { value: 3, suffix: "✵", label: "GFG" },
 ];
 
 const logoIconsList = [
@@ -171,21 +171,39 @@ const techStackIcons = [
 
 const expCards = [
   {
+    review: "At Innovya, Vansh demonstrated strong ownership and technical acumen by building a comprehensive hospital management system from the ground up. His problem-solving and backend architecture skills stood out throughout the internship.",
+    imgPath: "/images/exp2.jpeg",
+    logoPath: "/images/logo2.jpeg",
+    title: "Solutions Developer Intern",
+    date: "June 2025 – Present",
+    responsibilities: [
+      "Developed H-Intel, a full-stack hospital management system using MERN stack.",
+      "Designed RESTful APIs for managing patients, equipment, and staff roles.",
+      "Ensured code scalability and maintainability through modular architecture.",
+      "Worked closely with backend teams to optimize MongoDB queries and performance."
+    ]
+  },
+  {
     review: "Vansh brought creativity and technical expertise to the team, significantly improving our frontend and backend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Full Stack Developer Intern",
-    date: "March 2025 - Present",
+    date: "March 2025 - June 2025",
     responsibilities: [
       "Developed and maintained Full stack applications",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
       "Optimized web applications for maximum speed and scalability.",
       "Worked on solo projects and as team lead."
-    ],
+    ]
   },
 ];
 
+
 const expLogos = [
+  {
+    name:"logo2",
+    imgPath: "/images/logo2.jpeg"
+  },
   {
     name: "logo1",
     imgPath: "/images/logo1.png",
@@ -249,9 +267,9 @@ const socialImgs = [
     url:"https://codeforces.com/profile/mrinvis123"
   },
   {
-    name: "codechef",
-    imgPath: "/images/codechef.png",
-    url:"https://www.codechef.com/users/mrinvis123"
+    name: "GFG",
+    imgPath: "/images/gfg.webp",
+    url:"https://www.geeksforgeeks.org/user/mrinvis123/"
   },
   {
     name: "linkedin",
